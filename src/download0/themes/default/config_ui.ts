@@ -287,9 +287,9 @@ if (typeof lang === 'undefined') {
     })
   } else {
     backHint = new jsmaf.Text()
-      backHint.text = jsmaf.circleIsAdvanceButton
-        ? (lang.xToGoBack ?? 'X to go back')
-        : (lang.oToGoBack ?? 'O to go back')
+    backHint.text = jsmaf.circleIsAdvanceButton
+      ? (lang.xToGoBack ?? 'X to go back')
+      : (lang.oToGoBack ?? 'O to go back')
     backHint.x = centerX - 60
     backHint.y = startY + configOptions.length * buttonSpacing + 120
     backHint.style = 'white'
